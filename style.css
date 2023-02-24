@@ -1,0 +1,53 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background: no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ color:  white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-shadow: 0px 0px 0px #aaaaaa;
+ }
+ main{
+   padding: 15px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ div.top{
+   display: flex;
+   justify-content: space-between;
+ }
+ h1.time{
+   text-align: center;
+   font-size: 3rem;
+ }
+ div#crypto-top{
+  display: flex;
+  align-items: center;
+ }
+ div#crypto >p{
+  margin: 0;
+ }
+div#weather{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+p.weather-city{
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  font-size: 1.5rem;
+}
+#author{
+  font-size: 1rem;
+}
